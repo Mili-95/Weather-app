@@ -250,3 +250,27 @@ body{
       height: 40%;
     }
 }
+
+@media (min-width: 480px) {
+    .weather-app {
+      max-width:480px;
+      .tob-bar{
+          margin-left: -25px;
+      }
+      .time-bar{
+          margin-left: -26px;
+      }
+      .temp-details{
+          margin-left: -67px;
+      }
+      .hour-list{
+          display: block;
+          margin-left: -48px;
+          
+      }
+      
+    }
+
+    
+}
+
