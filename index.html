@@ -1,0 +1,141 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Weather-app</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/8b6a10b4d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <div class="tob-bar">
+                <form class="search-bar">
+                   <input class="search" type ="text" placeholder="Type in the city...">
+                </form>
+                <div class="btn">
+                    <div class="search-btn" id="search-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                    <div class="location-btn" id="location-btn">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="time-bar">
+                <h3 class="current-time-date">Wedenesday, 6th April | Local time : 17:00pm</h3>
+                <h1 class="city-name name">Kolkata</h1>
+                <h2 class="current-weather-description description">Sunny Day</h2>
+            </div>
+
+            <div class="temp-bar">
+                <img class="icon" src="" alt="">
+                 <h2 class="temp">29°</h2>
+                 <span class="units">
+                    <a class=" active" id="celcius">c </a>
+                    <span>|</span>
+                    <a id="fahrenheit">F</a>
+                 </span>
+                
+            </div>
+            <div class="temp-details">
+                <span>
+                    <ul>
+                        <li class="real-feel">Real feel : 
+                            <strong></strong>
+                        </li>
+                        <li class="humidity">Humidity : 
+                            <strong></strong>
+                        </li>
+                        <li class="wind">Wind :
+                            <strong></strong>
+                        </li>
+                        
+                        
+                    </ul>
+                </span>
+            </div>
+
+            <h2 class="headline">Hour for cast</h2>
+                <div class="hour-list">
+                    <div class="hour-box"> 8:00
+                        <div class="hour-icon">
+                            <img src="" alt="">
+                        </div>
+                        <div class="temp-forcast">
+                            <strong>1°</strong>
+                        </div>
+
+                    </div>
+                    <div class="hour-box"> 8:00
+                        <div class="hour-icon">
+                            <img src="" alt="">
+                        </div>
+                        <div class="temp-forcast">
+                            <strong>1°</strong>
+                        </div>
+
+                    </div>
+                    <div class="hour-box"> 8:00
+                        <div class="hour-icon">
+                            <img src="" alt="">
+                        </div>
+                        <div class="temp-forcast">
+                            <strong>1°</strong>
+                        </div>
+
+                    </div>
+                    <div class="hour-box"> 
+                        <div class="hour-icon">
+                            <img src="" alt="">
+                        </div>
+                        <div class="temp-forcast">
+                            <strong>1°</strong>
+                        </div>
+
+                    </div>
+                    <div class="hour-box"> 8:00
+                        <div class="hour-icon">
+                            <img src="" alt="">
+                        </div>
+                        <div class="temp-forcast">
+                            <strong>1°</strong>
+                        </div>
+
+                    </div>
+                    <div class="hour-box"> 8:00
+                        <div class="hour-icon">
+                            <img src="" alt="">
+                        </div>
+                        <div class="temp-forcast">
+                            <strong>1°</strong>
+                        </div>
+
+                    </div>
+                    <div class="hour-box"> 8:00
+                        <div class="hour-icon">
+                            <img src="" alt="">
+                        </div>
+                        <div class="temp-forcast">
+                            <strong>1°</strong>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            
+        </div>
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://kit.fontawesome.com/8b6a10b4d8.js" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+    </body>
+    </html>
